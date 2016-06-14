@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'sunspot_rails'
 
   s.add_development_dependency 'rails'
+  s.add_development_dependency 'mime-types', '< 3'
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'guard'
   s.add_development_dependency 'guard-rspec'
